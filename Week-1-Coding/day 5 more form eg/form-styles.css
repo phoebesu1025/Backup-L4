@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(136, 171, 139);
+}
+/*element seclector (aka type seletor)*/
+
+input {
+  width: 40%;
+}
+
+label {
+  color:white;
+  font-family: tahoma
+}
+
+/*Attribute selector*/
+/*Here input elements with the attribute value for the type as 'week' */
+input[type="month"] {
+  background-color: lightpink;
+}
+
+
+/*Universal selector*/
+*{
+  border:dashed white 1px;
+}
+
+/*class selector*/ /*id selector*/
+  /*.class a {}*/
+

@@ -1,0 +1,77 @@
+body {
+  font-family: tahoma;
+}
+
+header {
+  display: flex;
+  justify-content:flex-end;/*horizontal*/
+  margin: 50px 100px;
+}
+
+.button {
+  background-color:#d8e4ef;
+  margin: 2px 5px;
+  padding: 8px 15px;
+  text-align:center;
+}
+
+.button:hover {
+  background-color:#396ee1;
+  color:white;
+}
+
+.home {
+  display:flex;
+  align-items: center; /*vertical*/
+  width: 100%;
+  height: 100%;
+}
+
+#profile {
+  width: 35%;
+  margin: 30px 100px;
+}
+
+h1 {
+  font-size:40px;
+  width:340px;
+}
+
+
+p {
+  margin: 35px 0px;
+}
+
+a {
+  color:black;
+  text-decoration:none;
+}
+
+.chat-button {
+  background-color:rgb(210, 227, 249);
+  border:none;
+  padding:14px 25px;
+  text-align:center;
+  width:150px;
+  margin:20px 0px;
+}
+
+.chat-button:hover {
+  background-color:#396ee1;
+  color:white;
+}
+
+#pic {
+  width: 65%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+}
+
+img {
+  width: 600px;
+  margin: 50px 100px;
+  padding: 0px 100px;
+
+}

@@ -1,0 +1,43 @@
+body {
+    padding-bottom:1500px;
+    position:relative;
+}
+
+@keyframes example {
+ 0% {background-color: orange; left:0px; top:0px;}
+ 50% {background-color: green; left: 200px; top: 0px;}
+ 100% {background-color: blue; left: 200px; top:200px;}
+}
+
+.headline {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.button {
+    margin:10px 10px;
+    padding:10px 10px ;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    text-align: center;
+    position:relative;
+    animation-name:example;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#photocollection {
+    position:absolute;
+    top:700px;
+}
+#footer {
+    position:absolute;
+    bottom:500px;
+}

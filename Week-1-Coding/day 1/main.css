@@ -1,0 +1,46 @@
+body {
+  background-color:rgba(11, 14, 19, 0.877);
+  color:rgb(136, 184, 213);
+  font-family: fantasy;
+  margin-left:20px;
+}
+
+h1 {  
+  font-size:60px;
+  text-decoration:  underline overline dotted white 5px;
+  /*text-decoration-style:underline;
+    text-decoration-style:overline;
+    text-decoration-color:white ;
+    text-decoration-thickness:5px;*/
+
+  text-align:center;
+}
+
+p {
+  font-size:20px;
+  margin-right:6px; 
+}
+
+.underlineText {
+  color:pink;
+  text-decoration:underline;
+}
+.intro {
+  font-family:"Tahoma";
+  color:rgb(240, 136, 136);
+  text-decoration: underline dotted;
+}
+
+ul, ol {
+  color:white;
+}
+
+
+img {
+  height: 250px;
+}
+
+  /*
+    Multi Line comments in CSS.
+    These start with a /* and end with
+  */

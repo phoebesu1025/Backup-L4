@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Other Form inputs</title>
+  <link rel="stylesheet" href="form-styles.css">
+</head>
+
+
+
+<form>
+
+  <body>
+    <!-- value attribute sets an intial value for the form field-->
+    <!--readonly attribute prevents users from changin the values-->
+    <label for="dob"> Your date of birth</label>
+    <input type="date" name="dob" id="dob" value="2001-01-01">
+
+    <br>
+
+    <label for="favMonth"> Your fav month</label>
+    <input type="month" name="favMonth" id="favMonth" value="2020-03" readonly>
+
+    <br>
+
+    <label for="week">Select a week:</label>
+    <input type="week" id="week" name="week" disabled>
+
+    <br>
+
+    <label for="time"> Some time </label>
+    <input type="time" name="time" id="time">
+
+    <br>
+
+    <label for="password"> Enter a password </label>
+    <input type="password" name="password" id="password">
+
+    <br>
+
+    <!-- Range input -->
+    <label for="volume"> Volume</label>
+    <input type="range" id="volume" min="25" max="100" step="10">
+  </body>
+</form>
+
+</html>

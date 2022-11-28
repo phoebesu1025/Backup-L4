@@ -1,0 +1,58 @@
+body{
+  background-color:rgb(250, 231, 235);
+}
+h1 {
+  color:lightblue;
+  font-family:fantasy;
+}
+
+hr {
+  border-color:pink ;
+  background-color:pink
+}
+
+
+label {
+  color:lightblue;
+  font-family:fantasy;
+}
+
+input[type=text], input[type=email] {
+  padding:2px 2px;
+  margin: 8px 0;
+  border:none;
+  border-bottom:2px solid pink
+}
+
+input[type=radio]+label {
+  width:20px;
+  color:lightblue;
+}
+
+::placeholder {
+  color:pink
+}
+
+
+
+
+
+
+
+
+
+
+textarea {
+  border-color: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 6px 10px;
+}
+
+
+input[type=submit] {
+  background-color:lightblue;
+  color:white;
+  border-color:white;
+  border-width: 2px;
+}
